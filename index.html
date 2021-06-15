@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+  
+    
+    <div class="chatbot-box">
+        <div id="chatList">
+            <ul>
+               
+
+            </ul>
+
+        </div>
+    <div class="message-box-wrap">
+        <div class="message-box">
+           
+
+        </div>
+        <button id="send">>>></button>
+    </div>
+    <div class="admin-client-message-wrap">
+        <select name="service" data-question="How much You are hungry?">
+            <option>please select</option>
+            <option>Pizza</option>
+            <option>Cake</option>
+            <option>Burger</option>
+        </select>
+        <input type="text" name="name" data-question="what is your name?"required>
+        <input type="text" name="email" data-question="what is your email?" data-name required>
+        <input type="text" name="phone" data-question="what is your mobile no.?"required>
+        <input type="text" name="quant" data-question="number of people to eat?"required>
+        <div data-question="Confirm the order ?">
+            <button id="confirm">Yes</button>
+            <button id="notconfirm">No</button>
+
+        </div>
+        <input type="text" name="phone" data-question="Your order has been placed. Thank you"required>
+    </div>
+    <form id="submit_info_form">
+        <div class="submit_info"></div>
+        <input type="submit" value="send" id="submit" name="">
+    </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="app.js"></script>
+</body>
+</html>
